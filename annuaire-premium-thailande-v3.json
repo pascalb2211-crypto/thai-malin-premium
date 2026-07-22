@@ -1,0 +1,45 @@
+{
+  "title": "Annuaire Premium - Thaïlande v3",
+  "description": "Chaque fiche comprend les informations pratiques et les recommandations Thaï Malin.",
+  "example": {
+    "name": "Bumrungrad International Hospital",
+    "category": "Hôpital",
+    "location": {
+      "city": "Bangkok",
+      "address": "33 Sukhumvit 3, Watthana",
+      "gps": "13.7466,100.5520"
+    },
+    "website": "https://www.bumrungrad.com",
+    "phone": "+66 2066 8888",
+    "hours": "24h/24",
+    "usageTips": [
+      "Présentez votre passeport.",
+      "Ayez votre assurance voyage à portée de main.",
+      "Le personnel parle anglais."
+    ],
+    "thaiMalinRecommendation": "⭐ Recommandé pour les voyageurs internationaux grâce à son excellente réputation."
+  },
+  "template": {
+    "name": "",
+    "location": {
+      "city": "",
+      "address": "",
+      "gps": ""
+    },
+    "website": "",
+    "phone": "",
+    "hours": "",
+    "usageTips": [
+      ""
+    ],
+    "thaiMalinRecommendation": ""
+  },
+  "fieldsDescription": {
+    "location": "📍 Localisation complète avec GPS",
+    "website": "🌐 Site officiel",
+    "phone": "📞 Numéro de téléphone",
+    "hours": "🕒 Horaires d'ouverture",
+    "usageTips": "📝 Conseils d'utilisation",
+    "thaiMalinRecommendation": "⭐ Recommandation Thaï Malin"
+  }
+}

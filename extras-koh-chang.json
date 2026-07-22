@@ -1,0 +1,117 @@
+{
+  "sites": [
+    {
+      "name": "White Sand Beach",
+      "desc": "La plage la plus populaire de Koh Chang.",
+      "price": "Gratuit",
+      "hours": "Toute la journée",
+      "tip": "Idéale pour la baignade et les couchers de soleil."
+    },
+    {
+      "name": "Khlong Plu Waterfall",
+      "desc": "La plus célèbre cascade de l'île.",
+      "price": "200 THB",
+      "hours": "08:00–17:00",
+      "tip": "Prévoir des chaussures adaptées."
+    },
+    {
+      "name": "Bang Bao Fishing Village",
+      "desc": "Village de pêcheurs sur pilotis avec restaurants et boutiques.",
+      "price": "Gratuit",
+      "hours": "Toute la journée",
+      "tip": "Excellent endroit pour déguster des fruits de mer."
+    },
+    {
+      "name": "Kai Bae Viewpoint",
+      "desc": "Point de vue panoramique sur les îles voisines.",
+      "price": "Gratuit",
+      "hours": "Toute la journée",
+      "tip": "À visiter au coucher du soleil."
+    },
+    {
+      "name": "Mu Ko Chang National Park",
+      "desc": "Parc national regroupant jungle, plages et cascades.",
+      "price": "200 THB",
+      "hours": "08:00–17:00",
+      "tip": "Emporter de l'eau et un anti-moustiques."
+    }
+  ],
+  "transport": [
+    {
+      "icon": "🛵",
+      "title": "Location de scooter",
+      "desc": "Le moyen le plus pratique pour explorer Koh Chang.",
+      "price": "250–400 THB/jour",
+      "hours": "",
+      "tip": "Port du casque obligatoire.",
+      "buttonText": "",
+      "buttonUrl": ""
+    },
+    {
+      "icon": "🚕",
+      "title": "Taxi Songthaew",
+      "desc": "Taxis collectifs circulant autour de l'île.",
+      "price": "Selon le trajet",
+      "hours": "Toute la journée",
+      "tip": "Négocier le tarif si nécessaire.",
+      "buttonText": "",
+      "buttonUrl": ""
+    },
+    {
+      "icon": "⛴️",
+      "title": "Ferry",
+      "desc": "Liaisons entre Trat et Koh Chang.",
+      "price": "Selon la compagnie",
+      "hours": "Selon les horaires",
+      "tip": "Réserver en haute saison.",
+      "buttonText": "",
+      "buttonUrl": ""
+    }
+  ],
+  "hotels": [
+    {
+      "tier": "Économique",
+      "desc": "Guesthouses et bungalows",
+      "price": "600–1500 THB",
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Koh+Chang"
+    },
+    {
+      "tier": "Confort",
+      "desc": "Hôtels 3★ et resorts",
+      "price": "1800–3500 THB",
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Koh+Chang"
+    },
+    {
+      "tier": "Premium",
+      "desc": "Resorts 4★ en bord de plage",
+      "price": "4000–7000 THB",
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Koh+Chang"
+    },
+    {
+      "tier": "Luxe",
+      "desc": "Resorts 5★ et villas privées",
+      "price": "8000 THB et +",
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Koh+Chang"
+    }
+  ],
+  "budget": [
+    {
+      "icon": "🎒",
+      "tier": "Petit budget",
+      "price": "1000–1800 THB/jour",
+      "desc": "Guesthouse, street food et scooter."
+    },
+    {
+      "icon": "🧳",
+      "tier": "Budget moyen",
+      "price": "2500–5000 THB/jour",
+      "desc": "Resort confortable, restaurants et excursions."
+    },
+    {
+      "icon": "💎",
+      "tier": "Budget élevé",
+      "price": "7000 THB et +",
+      "desc": "Hébergement haut de gamme et activités privées."
+    }
+  ]
+}

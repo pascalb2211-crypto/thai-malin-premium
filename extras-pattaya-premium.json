@@ -1,0 +1,117 @@
+{
+  "sites": [
+    {
+      "name": "Sanctuary of Truth",
+      "desc": "Temple en bois sculpté emblématique de Pattaya.",
+      "price": "500 THB",
+      "hours": "08:00–18:00",
+      "tip": "Prévoir 2 à 3 heures de visite."
+    },
+    {
+      "name": "Koh Larn",
+      "desc": "Île paradisiaque accessible en ferry.",
+      "price": "30 THB (ferry)",
+      "hours": "Toute la journée",
+      "tip": "Prendre le premier ferry."
+    },
+    {
+      "name": "Nong Nooch Tropical Garden",
+      "desc": "Jardin botanique spectaculaire.",
+      "price": "600 THB",
+      "hours": "08:00–18:00",
+      "tip": "Prévoir une demi-journée."
+    },
+    {
+      "name": "Big Buddha",
+      "desc": "Statue monumentale sur Pratumnak Hill.",
+      "price": "Gratuit",
+      "hours": "07:00–19:00",
+      "tip": "Tenue correcte."
+    },
+    {
+      "name": "Walking Street",
+      "desc": "Rue emblématique de la vie nocturne.",
+      "price": "Gratuit",
+      "hours": "18:00–02:00",
+      "tip": "À découvrir le soir."
+    }
+  ],
+  "transport": [
+    {
+      "icon": "🚕",
+      "title": "Grab & Bolt",
+      "desc": "Applications VTC.",
+      "price": "Selon trajet",
+      "hours": "24h/24",
+      "tip": "Comparer les tarifs.",
+      "buttonText": "Télécharger Grab",
+      "buttonUrl": "https://www.grab.com/th/en/download/"
+    },
+    {
+      "icon": "🛻",
+      "title": "Songthaew",
+      "desc": "Taxi collectif.",
+      "price": "10–20 THB",
+      "hours": "Toute la journée",
+      "tip": "Prévoir de la monnaie.",
+      "buttonText": "",
+      "buttonUrl": ""
+    },
+    {
+      "icon": "⛴️",
+      "title": "Ferry Koh Larn",
+      "desc": "Depuis Bali Hai Pier.",
+      "price": "30 THB",
+      "hours": "Selon horaires",
+      "tip": "Arriver en avance.",
+      "buttonText": "",
+      "buttonUrl": ""
+    }
+  ],
+  "hotels": [
+    {
+      "tier": "Économique",
+      "desc": "Guesthouses",
+      "price": "600–1200 THB",
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Pattaya"
+    },
+    {
+      "tier": "Confort",
+      "desc": "Hôtels 3★",
+      "price": "1500–3000 THB",
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Pattaya"
+    },
+    {
+      "tier": "Premium",
+      "desc": "Hilton, Amari...",
+      "price": "3500–6000 THB",
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Pattaya"
+    },
+    {
+      "tier": "Luxe",
+      "desc": "Royal Cliff, InterContinental",
+      "price": "7000 THB et +",
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Pattaya"
+    }
+  ],
+  "budget": [
+    {
+      "icon": "🎒",
+      "tier": "Petit budget",
+      "price": "1000–1800 THB/jour",
+      "desc": "Voyage économique."
+    },
+    {
+      "icon": "🧳",
+      "tier": "Budget moyen",
+      "price": "2500–4500 THB/jour",
+      "desc": "Bon confort."
+    },
+    {
+      "icon": "💎",
+      "tier": "Budget élevé",
+      "price": "7000 THB et +",
+      "desc": "Séjour haut de gamme."
+    }
+  ]
+}
