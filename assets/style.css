@@ -1,0 +1,124 @@
+
+:root{
+  --gold:#d4af37;--dark:#11151b;--card:#1d232c;--light:#f5f5f5;
+  --street:#e8983b;--rooftop:#9b59b6;--cafe:#3d8bd4;--gastro:#c0392b;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--dark);color:#fff;line-height:1.6}
+header{position:sticky;top:0;background:rgba(10,10,10,.95);padding:14px 20px;z-index:1000}
+nav{max-width:1300px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:10px;position:relative}
+nav a{color:#fff;text-decoration:none;margin-left:18px;padding:6px 0}
+#navToggle{display:none;flex-direction:column;justify-content:center;gap:5px;width:44px;height:44px;background:transparent;border:1px solid #444;border-radius:10px;cursor:pointer}
+
+.dest-menu{position:relative;list-style:none}
+.dest-menu summary{cursor:pointer;color:#fff;list-style:none;padding:8px 16px;border:1px solid var(--gold);border-radius:20px;font-size:14px;white-space:nowrap}
+.dest-menu summary::-webkit-details-marker{display:none}
+.dest-menu summary::marker{content:""}
+.dest-list{position:absolute;top:calc(100% + 8px);right:0;background:#0d0d0d;border:1px solid #333;border-radius:12px;padding:8px;display:flex;flex-direction:column;min-width:170px;z-index:1001}
+.dest-list a{margin:0!important;padding:10px 12px;border-radius:8px;white-space:nowrap;display:block}
+.dest-list a:hover{background:#1d232c}
+.dest-list a.current{color:var(--gold);font-weight:bold;pointer-events:none}
+@media(max-width:480px){.dest-menu summary{padding:8px 12px;font-size:13px}}
+
+#navToggle span{display:block;width:22px;height:2px;background:#fff;margin:0 auto}
+#navLinks{display:flex}
+.hero{
+  height:80vh;min-height:480px;
+  display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;
+  background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.65)), var(--hero-img) center/cover;
+}
+.hero h1{font-size:56px;margin:0}
+.hero p{max-width:850px;font-size:20px;margin:20px auto}
+.btn{display:inline-block;background:var(--gold);color:#000;padding:16px 34px;border-radius:40px;text-decoration:none;font-weight:bold;border:none;cursor:pointer;font-size:15px}
+section{max-width:1300px;margin:auto;padding:60px 20px}
+h2{color:var(--gold);font-size:34px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.card{background:var(--card);padding:24px;border-radius:18px;border:1px solid #333;transition:transform .25s ease, box-shadow .25s ease}
+.card:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(0,0,0,.25)}
+.card h3{margin-top:0;color:var(--gold)}
+.timeline{border-left:4px solid var(--gold);padding-left:20px}
+.timeline h3{color:var(--gold);margin-bottom:4px}
+footer{background:#090909;text-align:center;padding:40px;margin-top:20px}
+small{color:#bbb}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0;-webkit-overflow-scrolling:touch}
+.toolbar input,.toolbar select{padding:14px;border-radius:10px;border:1px solid #555;background:var(--card);color:#fff;font-size:16px}
+.toolbar input{flex:1;min-width:220px}
+.toolbar button{padding:12px 20px;border-radius:20px;border:1px solid var(--gold);background:transparent;color:#fff;cursor:pointer;font-size:15px;min-height:44px}
+.toolbar button.active{background:var(--gold);color:#000;font-weight:bold}
+.tag-grid,.rest-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.tile{background:var(--card);border-radius:18px;overflow:hidden;border:1px solid #333;transition:transform .25s ease}
+.tile:hover{transform:translateY(-4px)}
+.tile img{width:100%;height:190px;object-fit:cover;display:block}
+.tile .body{padding:20px}
+.tile h3{color:var(--gold);margin:0 0 8px}
+.badge{display:inline-block;font-size:12px;padding:4px 10px;border-radius:12px;font-weight:bold;color:#000}
+.b-street{background:var(--street)}.b-rooftop{background:var(--rooftop);color:#fff}.b-cafe{background:var(--cafe);color:#fff}.b-gastro{background:var(--gastro);color:#fff}
+.tile p{margin:6px 0;font-size:14px}
+.tile .tip{color:#ddd;font-style:italic}
+.fav-btn{margin-top:10px;padding:8px 14px;border-radius:14px;border:1px solid var(--gold);background:transparent;color:#fff;cursor:pointer}
+.fav-btn.on{background:var(--gold);color:#000;font-weight:bold}
+#leafletMap{height:550px;max-height:70vh;border-radius:16px}
+.fav-btn{min-height:44px}
+a.btn, .btn{min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+
+@media(max-width:820px){
+  #navToggle{display:flex}
+  #navLinks{
+    display:none;
+    position:absolute;top:calc(100% + 10px);right:0;left:0;
+    background:#0d0d0d;border:1px solid #333;border-radius:14px;
+    flex-direction:column;padding:10px;gap:2px;
+  }
+  #navLinks.open{display:flex}
+  nav a{margin-left:0;padding:14px 10px;border-radius:8px}
+  nav a:active{background:#1d232c}
+}
+
+@media(max-width:700px){
+  h2{font-size:26px!important}
+  .hero{height:70vh;min-height:400px}
+  .hero h1{font-size:34px}
+  .hero p{font-size:16px}
+  section{padding:40px 16px}
+  #leafletMap{height:60vh;max-height:420px}
+  .tile img{height:160px}
+  .toolbar{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px}
+  .toolbar button{flex:0 0 auto}
+}
+
+/* ===================== INDICATEUR DE CHARGEMENT ===================== */
+#thaimalin-loader{
+  position:fixed;inset:0;background:var(--dark);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;
+  z-index:9999;transition:opacity .4s ease;
+}
+#thaimalin-loader.hidden{opacity:0;pointer-events:none}
+#thaimalin-loader p{color:#ddd;font-size:15px;margin:0}
+.thaimalin-spinner{
+  width:48px;height:48px;border:4px solid #333;border-top-color:var(--gold);
+  border-radius:50%;animation:thaimalin-spin .8s linear infinite;
+}
+@keyframes thaimalin-spin{to{transform:rotate(360deg)}}
+
+/* ===================== MODE IMPRESSION — MON ITINÉRAIRE ===================== */
+@media print{
+  header, .hero, #navToggle, .toolbar, footer, #leafletMap,
+  section:not(#mon-itineraire) { display:none !important; }
+  body{ background:#fff; color:#000; }
+  #mon-itineraire{ padding:20px 0; }
+  #mon-itineraire h2{ color:#000; }
+  #mon-itineraire #itinerairePrintBtn,
+  #mon-itineraire #itineraireOptimizeBtn,
+  #mon-itineraire #itineraireResetBtn,
+  #mon-itineraire #itineraireStatus{ display:none; }
+  #mon-itineraire .rest-grid{ display:block; }
+  #mon-itineraire .tile{
+    background:#fff; border:1px solid #999; break-inside:avoid;
+    margin-bottom:16px; color:#000;
+  }
+  #mon-itineraire .tile h3, #mon-itineraire .badge{ color:#000 !important; background:none !important; border:1px solid #000; }
+  #mon-itineraire .tile img{ max-height:120px; }
+}
+
+/* Espacement entre les boutons de la section Mon itinéraire */
+#mon-itineraire p:has(#itineraireOptimizeBtn) .btn{ margin:4px 8px 4px 0; }
