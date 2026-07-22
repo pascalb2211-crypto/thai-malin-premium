@@ -1,0 +1,72 @@
+{
+  "city": "Bangkok",
+  "transport": [
+    {
+      "title": "BTS Skytrain",
+      "description": "Le moyen le plus rapide pour se déplacer dans les quartiers centraux.",
+      "price": "17 à 62 THB"
+    },
+    {
+      "title": "MRT",
+      "description": "Métro moderne reliant les principaux quartiers.",
+      "price": "17 à 43 THB"
+    },
+    {
+      "title": "Grab",
+      "description": "Application recommandée pour les taxis et VTC.",
+      "price": "Selon la distance"
+    },
+    {
+      "title": "Bateau Chao Phraya",
+      "description": "Idéal pour visiter les temples et le centre historique.",
+      "price": "16 à 45 THB"
+    }
+  ],
+  "hotels": [
+    {
+      "name": "The Quarter Silom",
+      "category": "Bon rapport qualité/prix",
+      "price": "70 €"
+    },
+    {
+      "name": "Grande Centre Point Surawong",
+      "category": "Premium",
+      "price": "120 €"
+    },
+    {
+      "name": "Eastin Grand Sathorn",
+      "category": "Luxe",
+      "price": "150 €"
+    }
+  ],
+  "budget": {
+    "backpacker": "30-45 €/jour",
+    "comfort": "70-120 €/jour",
+    "premium": "150 €/jour et +"
+  },
+  "itineraries": [
+    {
+      "days": "2 jours",
+      "description": "Grand Palace, Wat Pho, Chinatown, rooftop."
+    },
+    {
+      "days": "3 jours",
+      "description": "Ajouter ICONSIAM, Siam, croisière sur le Chao Phraya."
+    },
+    {
+      "days": "5 jours",
+      "description": "Explorer Ari, Talat Noi, Lumphini et plusieurs marchés."
+    },
+    {
+      "days": "7 jours",
+      "description": "Découverte complète avec excursions urbaines et quartiers moins connus."
+    }
+  ],
+  "tips": [
+    "Acheter une carte Rabbit pour le BTS.",
+    "Toujours utiliser Grab ou demander le compteur dans les taxis.",
+    "Prévoir de l'argent liquide pour les marchés.",
+    "Éviter les heures de pointe entre 7h30-9h00 et 17h00-19h00.",
+    "Respecter les codes vestimentaires dans les temples."
+  ]
+}

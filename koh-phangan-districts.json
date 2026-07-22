@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Thong Sala",
+    "emoji": "🛥️",
+    "cat": "shopping",
+    "desc": "Capitale de l'île avec le port, les marchés et de nombreux restaurants.",
+    "attractions": "Thong Sala Night Market",
+    "restaurant": "Nine Restaurant",
+    "hotel": "Buri Rasa Village",
+    "tip": "Point de départ idéal.",
+    "img": ""
+  },
+  {
+    "name": "Haad Rin",
+    "emoji": "🌕",
+    "cat": "nightlife",
+    "desc": "Célèbre pour la Full Moon Party et sa plage.",
+    "attractions": "Full Moon Beach",
+    "restaurant": "Mama's Schnitzel",
+    "hotel": "The Cabin Beach Resort",
+    "tip": "Réserver longtemps à l'avance pendant les fêtes.",
+    "img": ""
+  },
+  {
+    "name": "Srithanu",
+    "emoji": "🧘",
+    "cat": "culture",
+    "desc": "Village réputé pour le yoga et le bien-être.",
+    "attractions": "Zen Beach",
+    "restaurant": "Orion Café",
+    "hotel": "Phangan Cove",
+    "tip": "Idéal pour une ambiance zen.",
+    "img": ""
+  },
+  {
+    "name": "Haad Yao",
+    "emoji": "🏖️",
+    "cat": "culture",
+    "desc": "Grande plage de sable blanc aux eaux turquoise.",
+    "attractions": "Haad Yao Beach",
+    "restaurant": "Long Bay Restaurant",
+    "hotel": "Long Bay Resort",
+    "tip": "Excellent pour le snorkeling.",
+    "img": ""
+  },
+  {
+    "name": "Salad Beach",
+    "emoji": "🐠",
+    "cat": "culture",
+    "desc": "Plage calme appréciée des familles.",
+    "attractions": "Salad Beach",
+    "restaurant": "Coral Bay",
+    "hotel": "Salad Buri Resort",
+    "tip": "Belle eau toute l'année.",
+    "img": ""
+  },
+  {
+    "name": "Mae Haad",
+    "emoji": "🌊",
+    "cat": "culture",
+    "desc": "Connue pour son banc de sable menant à Koh Ma.",
+    "attractions": "Koh Ma",
+    "restaurant": "Island View",
+    "hotel": "Mae Haad Bay Resort",
+    "tip": "Snorkeling exceptionnel.",
+    "img": ""
+  },
+  {
+    "name": "Chaloklum",
+    "emoji": "🎣",
+    "cat": "food",
+    "desc": "Village de pêcheurs authentique.",
+    "attractions": "Chaloklum Pier",
+    "restaurant": "Seaflower",
+    "hotel": "Mandalai Hotel",
+    "tip": "Goûter les fruits de mer.",
+    "img": ""
+  },
+  {
+    "name": "Bottle Beach",
+    "emoji": "🌴",
+    "cat": "culture",
+    "desc": "Plage isolée parmi les plus belles de l'île.",
+    "attractions": "Bottle Beach",
+    "restaurant": "Bottle Beach Bar",
+    "hotel": "Bottle Beach 1 Resort",
+    "tip": "Accessible en bateau ou randonnée.",
+    "img": ""
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "name": "White Sand Beach",
+    "emoji": "🏖️",
+    "cat": "beach",
+    "desc": "La plage la plus populaire de Koh Chang avec de nombreux hôtels, restaurants et boutiques.",
+    "attractions": "White Sand Beach",
+    "restaurant": "15 Palms",
+    "hotel": "KC Grande Resort",
+    "tip": "Idéal pour un premier séjour sur l'île.",
+    "img": ""
+  },
+  {
+    "name": "Klong Prao",
+    "emoji": "🌴",
+    "cat": "relax",
+    "desc": "Longue plage paisible bordée de resorts et de cocotiers.",
+    "attractions": "Klong Prao Beach",
+    "restaurant": "The U-Turn",
+    "hotel": "The Dewa Koh Chang",
+    "tip": "Parfait pour les familles.",
+    "img": ""
+  },
+  {
+    "name": "Kai Bae",
+    "emoji": "🌅",
+    "cat": "beach",
+    "desc": "Secteur animé offrant une belle plage et un superbe point de vue.",
+    "attractions": "Kai Bae Viewpoint",
+    "restaurant": "Mojito Lounge",
+    "hotel": "Awa Resort",
+    "tip": "Très beau coucher de soleil.",
+    "img": ""
+  },
+  {
+    "name": "Lonely Beach",
+    "emoji": "🍹",
+    "cat": "nightlife",
+    "desc": "Le quartier festif de Koh Chang apprécié des voyageurs.",
+    "attractions": "Lonely Beach",
+    "restaurant": "Himmel Bar",
+    "hotel": "Nature Beach Resort",
+    "tip": "Ambiance animée en soirée.",
+    "img": ""
+  },
+  {
+    "name": "Bang Bao",
+    "emoji": "⚓",
+    "cat": "culture",
+    "desc": "Village de pêcheurs construit sur pilotis avec départs d'excursions.",
+    "attractions": "Bang Bao Pier",
+    "restaurant": "Ruan Thai Seafood",
+    "hotel": "Bang Bao Cliff View",
+    "tip": "Excellent pour les fruits de mer.",
+    "img": ""
+  },
+  {
+    "name": "Salak Phet",
+    "emoji": "🛶",
+    "cat": "nature",
+    "desc": "Baie sauvage et authentique au sud-est de l'île.",
+    "attractions": "Salak Phet Bay",
+    "restaurant": "Long Beach Restaurant",
+    "hotel": "Salak Phet Resort",
+    "tip": "Très peu touristique.",
+    "img": ""
+  },
+  {
+    "name": "Klong Kloi",
+    "emoji": "🐠",
+    "cat": "beach",
+    "desc": "Petite plage tranquille proche de Bang Bao.",
+    "attractions": "Klong Kloi Beach",
+    "restaurant": "Sunset Beach Restaurant",
+    "hotel": "Resolution Resort",
+    "tip": "Idéal pour le snorkeling.",
+    "img": ""
+  },
+  {
+    "name": "Mu Ko Chang National Park",
+    "emoji": "🌿",
+    "cat": "nature",
+    "desc": "Parc national regroupant cascades, jungle et plages préservées.",
+    "attractions": "Khlong Plu Waterfall",
+    "restaurant": "Visitor Café",
+    "hotel": "Nature Lodge",
+    "tip": "Prévoir des chaussures de marche.",
+    "img": ""
+  }
+]
